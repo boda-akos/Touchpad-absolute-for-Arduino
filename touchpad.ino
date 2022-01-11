@@ -1,7 +1,7 @@
 //Adafruit touchpad library modified for Synaptics touchpads, absolute values
 //To determine two dividers in program, check the min/max X and Y values in the corners
-//of your touchpad, uncomment "value check" to the values either on Serial or on TFT
-//then split X and Y on your TFT dots, for example 160x128 :
+//of your touchpad, uncomment and call "showCoord()" to show the values either on Serial or on TFT
+//then divide X and Y range on your TFT dots range, for example 160x128 :
 //Xmin = 1350 Ymin=1150 Xmax=5850 Ymax=4750 
 //deltaX = 4500 divide on 160 LCD points = 28 counts /point 
 //deltaY = 3600 divide on 128 LCD points = 28 counts /point
