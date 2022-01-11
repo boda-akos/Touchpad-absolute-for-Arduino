@@ -4,7 +4,7 @@ Using touchpad absolute values on Arduino Nano and STM32
 
 More details on Thingiverse Touchpad demo, drawing toy https://www.thingiverse.com/thing:5195666 
 
-Touchpad could be a cheap and versatile input device for Arduino (source : old laptop. Add two switches for mouse-like operation to select-unselect any position on the TFT screen. 
+Touchpad could be a cheap and versatile input device for Arduino (source : old laptop). Add two switches for mouse-like operation to select-unselect any position on the TFT screen. 
 
 Parts: Synaptics-like touchpad, Arduino, TFT ST7735 1.8", 5V to 3.3V level shifter 4 units, 10K 20K resistor divider for Reset signal to TFT. STM32 needs no level shift.
 
