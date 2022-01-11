@@ -67,7 +67,7 @@ void loop() {
         else { if (y<1400 && z>10) {tft.fillScreen(ST77XX_GREY); draw(); } //clear
                        else { sel=(127-yy)/15; draw();}  //color select
                }
- 
+ //showCoord();
   }
 
 }
@@ -153,15 +153,17 @@ uint32_t E8Report(byte arg) {
   reply |= reply2;
   return reply;
 }
-/* void showCoord(void){ 
-   Serial.print("X = "); Serial.print(x); Serial.print(" ");
+
+ void showCoord(void){ 
+   
+  Serial.print("X = "); Serial.print(x); Serial.print(" ");
   Serial.print("Y = "); Serial.print(y); Serial.print(" ");
-  Serial.print("Z = "); Serial.println(z);}
+  Serial.print("Z = "); Serial.println(z);
 
    tft.setCursor(0,10);tft.print("    ");tft.setCursor(0,10);tft.print(x);
    tft.setCursor(0,40);tft.print("    "); tft.setCursor(0,40);tft.print(y);
    tft.setCursor(0,70);tft.print("    "); tft.setCursor(0,70);tft.print(z);
-  } */  
+  } 
 
 void idle_(void) {
   pullhigh(cpin);
