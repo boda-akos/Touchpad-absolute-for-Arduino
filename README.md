@@ -1,7 +1,8 @@
 # Touchpad-absolute-for-Arduino
 Using touchpad absolute values  Arduino Nano and STM32
-More details on Thingiverse https://www.thingiverse.com/thing:5195666
-Touchpad demo, drawing toy
+
+
+More details on Thingiverse Touchpad demo, drawing toy https://www.thingiverse.com/thing:5195666 
 
 Touchpad could be a cheap and versatile input device for Arduino (source : old laptop. Add two switches for mouse-like operation to select-unselect any position on the TFT screen. 
 
