@@ -1,5 +1,5 @@
 # Touchpad-absolute-for-Arduino
-Using touchpad absolute values  Arduino Nano and STM32
+Using touchpad absolute values on Arduino Nano and STM32
 
 
 More details on Thingiverse Touchpad demo, drawing toy https://www.thingiverse.com/thing:5195666 
